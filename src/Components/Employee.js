@@ -1,17 +1,9 @@
 import React from 'react'
-
+import LeftSidebar from './LeftSidebar/LeftSidebar'
 function Employee() {
   return (
     <div>
-      <p>
-        deiuweuihhsxnsh  cweihwbchiwic
-        wecubuwenjcucewi
-        niwicjioojiweuewuiciuwciuhcwui
-        wcbhuhwecucwiubicwibui
-        bwbuciihcwbiubibiibwhcibiububububiwc
-        wnwcbuwbcuwbcucbububwbucbububuw
-        wcbiowcnowcnn
-      </p>
+        <LeftSidebar />
     </div>
   )
 }

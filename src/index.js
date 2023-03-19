@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Employee from './Components/Employee';
+// import LeftSidebar from './Components/LeftSidebar'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { AuthProvider } from './context/authProvider';
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
         <Route path='/' element={<App />}/>
         <Route path='/Employee' element={<Employee/>}/>
         <Route path='/AdminPage'/>
+        
       </Routes>
     </Router>
   </AuthProvider>
