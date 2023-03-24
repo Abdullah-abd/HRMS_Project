@@ -22,9 +22,7 @@ const LeftSidebar = () => {
                     <p>Tags</p>
                 </NavLink>
                 <NavLink to='/Users' className='side-nav-links' activeClassName='active' style={{paddingLeft:"40px"}}>
-                {/* add p tag mani */}
-                <p>manisha</p>
-                <p>salma</p>
+
                     <p>Users</p>
                 </NavLink>
             </div>
